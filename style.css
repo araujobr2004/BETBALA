@@ -387,25 +387,53 @@ input[type="submit"]:hover::after {
 @media (max-width: 600px) {
     body {
         font-size: 1em;
+        padding: 0;
+    }
+    .logo {
+        max-width: 120px;
+        margin-top: 12px;
+        margin-bottom: 0;
+    }
+    h1 {
+        font-size: 1.3em;
+        margin-top: 18px;
+        margin-bottom: 10px;
+    }
+    h2 {
+        font-size: 1em;
+        margin-bottom: 12px;
     }
     form, #resultado, .info-box, .modal-content {
-        max-width: 99vw;
-        padding: 14px;
-        font-size: 1em;
+        max-width: 98vw;
+        padding: 10px;
+        font-size: 0.98em;
+        border-radius: 14px;
     }
     .modal-content {
         min-width: 0;
         width: 98vw;
         font-size: 1em;
-        padding: 22px 8px 22px 8px;
+        padding: 18px 4px 18px 4px;
+        border-radius: 14px;
     }
-    h1 {
-        font-size: 1.5em;
-    }
-    h2 {
+    .modal-status-title {
         font-size: 1.1em;
+        padding: 8px;
+        margin: -10px -4px 14px -4px;
+        border-radius: 8px;
+    }
+    .odds-sugestao {
+        font-size: 0.95em;
+        padding: 6px 10px;
+        border-radius: 7px;
+    }
+    .form-group input[type="number"] {
+        font-size: 1em;
+        padding: 10px 12px 10px 38px;
+        border-radius: 10px;
     }
     .info-box {
-        padding: 18px 8px 18px 8px;
+        padding: 12px 4px 12px 4px;
+        border-radius: 12px;
     }
 }
